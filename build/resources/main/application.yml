@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active: local
+  jpa:
+    properties:
+      hibernate:
+        default_batch_fetch_size : 1000
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: private@laonstory.com
+    password: Raonlaon12!@
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+server:
+  port: 9810
