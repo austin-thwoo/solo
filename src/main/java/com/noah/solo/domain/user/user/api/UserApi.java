@@ -89,12 +89,12 @@ public class UserApi {
 
         return ResponseEntity.ok(CommonResponse.success("success update device connection status"));
     }
-    @GetMapping("/logout/{userId}")
-    public ResponseEntity<CommonResponse<UserInfoResponse>> singOut(@AuthenticationPrincipal User principle,
-                                                                            @PathVariable("userId") Long userId) {
-
-
-        return ResponseEntity.ok(CommonResponse.success(response));
-    }
+//    @GetMapping("/logout/{userId}")
+//    public ResponseEntity<CommonResponse<UserInfoResponse>> singOut(@AuthenticationPrincipal User principle,
+//                                                                            @PathVariable("userId") Long userId) {
+//
+//
+//        return ResponseEntity.ok(CommonResponse.success(Response));
+//    }
 
 }
